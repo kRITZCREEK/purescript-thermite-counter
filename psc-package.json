@@ -1,0 +1,11 @@
+{
+    "name": "purescript-thermite-counter",
+    "set": "psc-0.10.5",
+    "source": "https://github.com/purescript/package-sets.git",
+    "depends": [
+        "eff",
+        "react",
+        "thermite",
+        "prelude"
+    ]
+}
