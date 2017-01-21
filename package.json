@@ -7,11 +7,13 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "psc-bundle output/**/*.js -m Main --main Main > dist/Main.bundle.js && browserify dist/Main.bundle.js > dist/Main.browserify.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browserify": "^13.3.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   }
